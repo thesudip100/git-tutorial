@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GharSewa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+<section>
+    <h1 class="heading">GharSewa</h1>
+</section>
+<section class="sec-01">
+    <div class="container">
+        <h2 class="main-title">Our Services</h2>
+        <div class="content">
+            <div class="image">
+                <img src="plumber.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <h3>Piping and Plumbing</h3>
+                <p>input text about plumbing here</p>
+            </div>
+        </div>
+    </div>
+</section> 
+<section class="sec-02">
+    <div class="container1">
+        <h3 class="section-title"></h3>
+        <div class="content1">
+            <div class="image1">
+                <img src="electrician.jpg" alt="">
+            </div>
+            <div class="text-box1">
+                <h3>Electricals</h3>
+                <p>input text about electrician here</p>
+            </div>
+        </div>
+    </div>
+</section>   
+<section class="sec-03">
+    <div class="container2">
+        <h3 class="section-title"></h3>
+        <div class="content2">
+            <div class="image2">
+                <img src="carpenter.jpg" alt="">
+            </div>
+            <div class="text-box2">
+                <h3>Carpentry and Furnishings</h3>
+                <p>input text about carpenter here</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sec-04">
+    <div class="container3">
+        <h3 class="section-title"></h3>
+        <div class="content3">
+            <div class="image3">
+                <img src="pester.jpg" alt="">
+            </div>
+            <div class="text-box3">
+                <h3>Pest Control</h3>
+                <p>input text about pest control here</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sec-05">
+    <div class="container4">
+        <h3 class="section-title">LEARN MORE ABOUT US</h3>
+        <div class="content4">
+            <div class="media-info">
+                <li><a href="#" class="icon"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" class="icon"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#" class="icon"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#" class="icon"><i class="fab fa-youtube"></i> Youtube</a></li>
+                <li><a href="#" class="icon"><i class="fab fa-twitch"></i> Twitch</a></li>
+            </div>
+            <div class="image4">
+                <img src="findus.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2000,
+        delay: 300
+        });
+
+        ScrollReveal().reveal('.main-title, .section-title', { delay: 100, origin: 'left'});
+        ScrollReveal().reveal('.sec-01 .image', { delay: 300, origin: 'bottom'});
+        ScrollReveal().reveal('.text-box', { delay: 500, origin: 'right'});
+        ScrollReveal().reveal('.sec-02 .image1', { delay: 300, origin: 'top'});
+        ScrollReveal().reveal('.text-box1', { delay: 500, origin: 'left'});
+        ScrollReveal().reveal('.sec-03 .image2', { delay: 300, origin: 'left'});
+        ScrollReveal().reveal('.text-box2', { delay: 500, origin: 'right'});
+        ScrollReveal().reveal('.sec-04 .image3', { delay: 300, origin: 'top'});
+        ScrollReveal().reveal('.text-box3', { delay: 500, origin: 'bottom'});
+        ScrollReveal().reveal('.media-info li', { delay: 300, origin: 'left', interval: 150});
+        ScrollReveal().reveal('.sec-05 .image4', { delay: 300, origin: 'right'});
+</script>
+
+
+</body>
+</html>
